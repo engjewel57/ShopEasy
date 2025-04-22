@@ -41,7 +41,7 @@
 <header class="main-header sticky-top">
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light py-3">
-            <a class="navbar-brand fw-bold fs-3" href="#">
+            <a class="navbar-brand fw-bold fs-3" href="{{ url('/') }}">
                 <i class="bi bi-shop me-2"></i>ShopEase
             </a>
 
@@ -97,19 +97,20 @@
                     <a class="nav-link text-white" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">New Arrivals</a>
+                    <a class="nav-link text-white" href="{{ route('f.arrivals') }}">New Arrivals</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Deals</a>
+                    <a class="nav-link text-white" href="{{ route('f.hot-deals') }}">Deals</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Trending</a>
+                    <a class="nav-link text-white" href="{{ route('f.trending') }}">Trending</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">About Us</a>
+
+                    <a class="nav-link text-white" href="{{ route('f.about') }}">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Contact</a>
+                    <a class="nav-link text-white" href="{{ route('f.contact') }}">Contact</a>
                 </li>
             </ul>
         </div>

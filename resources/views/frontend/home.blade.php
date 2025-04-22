@@ -26,7 +26,7 @@
                                 <i class="fas fa-star-half-alt"></i>
                                 <span class="text-muted small">(42)</span>
                             </div>
-                            <h5 class="card-title">Wireless Headphones</h5>
+                            <h5 class="card-title"> <a class="text-decoration-none" href="{{ route('f.category') }}">Wireless Earbuds</a></h5>
                             <p class="card-text text-muted small">Noise cancelling, 30hr battery</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div>

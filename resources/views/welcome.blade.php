@@ -54,6 +54,7 @@
                                         </a>
                                     @endif
                                 @endauth
+                                <a href="{{ route('admin.login') }}">Admin Login</a>
                             </nav>
                         @endif
                     </header>

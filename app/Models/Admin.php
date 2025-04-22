@@ -2,19 +2,14 @@
 
 namespace App\Models;
 
-// use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
-class User extends Authenticatable
+class Admin extends Authenticatable
 {
     /** @use HasFactory<\Database\Factories\UserFactory> */
     use HasFactory, Notifiable;
-    public const STATUS_ACTIVE = -1;
-    public const STATUS_INACTIVE = 0;
-    public const STATUS_DELETED = 1;
-    public     const STATUS_PENDING = 2;
 
     /**
      * The attributes that are mass assignable.
@@ -27,16 +22,15 @@ class User extends Authenticatable
         'password',
         'image',
 
-        'created_id',
-        'created_type',
-        'updated_id',
-        'updated_type',
-        'deleted_id',
-        'deleted_type',
+        'created_by',
+        'updated_by',
+        'deleted_by',
 
         'created_at',
         'updated_at',
         'deleted_at',
+
+
 
     ];
 

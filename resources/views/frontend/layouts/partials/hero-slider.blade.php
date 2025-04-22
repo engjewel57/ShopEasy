@@ -7,26 +7,26 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{ asset('assets/images/66.webp') }}" class="d-block w-100" alt="Summer Sale" height="80px" width="80px">>
+                <img src="{{ asset('assets/images/1.jpg') }}" class="d-block w-100" alt="Summer Sale" >
                 <div class="carousel-caption d-none d-md-block">
-                    <h3>Summer Sale</h3>
-                    <p>Up to 70% off on selected items. Limited time offer!</p>
+                    <h3 style="color: red">Summer Sale</h3>
+                    <p style="color: red">Up to 70% off on selected items. Limited time offer!</p>
                     <a href="#" class="btn btn-warning btn-lg">Shop Now</a>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('assets/images/77.webp') }}" class="d-block w-100" alt="New Arrivals" height="80px" width="80px">
+                <img src="{{ asset('assets/images/3.webp') }}" class="d-block w-100 " alt="New Arrivals" >
                 <div class="carousel-caption d-none d-md-block">
-                    <h3>New Arrivals</h3>
-                    <p>Discover our latest collection for this season</p>
+                    <h3 style="color: blue">New Arrivals</h3>
+                    <p style="color: blue">Discover our latest collection for this season</p>
                     <a href="#" class="btn btn-primary btn-lg">Explore</a>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('assets/images/22.png') }}" class="d-block w-100" alt="Free Shipping" height="80px" width="80px">>
+                <img src="{{ asset('assets/images/2.webp') }}" class="d-block w-100 " alt="Free Shipping" >
                 <div class="carousel-caption d-none d-md-block">
-                    <h3>Free Shipping</h3>
-                    <p>On all orders over $50. No code needed!</p>
+                    <h3 style="color: green">Free Shipping</h3>
+                    <p style="color: green">On all orders over $50. No code needed!</p>
                     <a href="#" class="btn btn-success btn-lg">Start Shopping</a>
                 </div>
             </div>
